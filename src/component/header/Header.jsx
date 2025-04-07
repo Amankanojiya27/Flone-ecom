@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { CiSearch, CiUser, CiHeart, CiShoppingCart } from "react-icons/ci";
 import { IoChevronDown } from "react-icons/io5";
 import { IoIosMenu } from "react-icons/io";
-import card from "./Card"
+import leftNav from "./LeftNav"
 
 const navbar = [
   {

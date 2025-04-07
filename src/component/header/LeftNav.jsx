@@ -1,7 +1,7 @@
 import React from "react";
 import { RxCross2 } from "react-icons/rx";
 
-function Card() {
+function LeftNav() {
   const navbar = [
     {
       name: "Home",
@@ -71,8 +71,8 @@ function Card() {
     },
   ];
   return (
-    <div className="bg-gradient-to-r h-svh">
-      <div className="flex bg-amber-300 h-svh ">
+    <div className="bg-gradient-to-r h-svh " >
+      <div className="flex bg-amber-300 h-svh sm:min-w-[50%]">
         <div className="icon-div h-16 w-20 bg-white flex items-center justify-center">
           <RxCross2 className="w-12 h-12" />
         </div>
@@ -87,6 +87,8 @@ function Card() {
         </div>
       </div>
     </div>
+
+
     // <div className="w-full bg-black relative h-svh">
     //   <div className="absolute right-0 top-0 min-w-[30%] h-full bg-amber-600">
     //     <div className=" h-s10 w-10 bg-sky-500">
@@ -106,4 +108,4 @@ function Card() {
   );
 }
 
-export default Card;
+export default LeftNav;
